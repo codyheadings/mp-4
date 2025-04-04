@@ -78,7 +78,7 @@ export default function Home() {
             <Header/>
             <Wrapper>
                 <div>
-                    <StyledH1>About this page:</StyledH1>
+                    <StyledH1>About this Site:</StyledH1>
                     <StyledP>Have you ever had the urge to wander an art museum, but they were all <StyledSpan>
                         too far away</StyledSpan>?
                         <br/><br/>Thanks to the <StyledA
@@ -94,8 +94,10 @@ export default function Home() {
                 <StyledP>Powered by:</StyledP>
                 <ImageDiv>
                     <Image2
-                        src={"https://ids.lib.harvard.edu/ids/iiif/437958013/full/!800,800/0/default.jpg"}
+                        src={"/logo.jpg"}
                         alt="Harvard Art Museums Logo"
+                        width={800}
+                        height={189}
                     />
                 </ImageDiv>
             </Wrapper>
